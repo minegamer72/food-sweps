@@ -25,4 +25,4 @@ if __b:Health()<100 then __b:SetHealth(math.Clamp(__b:Health()+__q,0,100))end en
 if not IsValid(__d)then return end;if IsValid(__b.ActiveFoodWepoon)then if __d:GetClass()~=__b.ActiveFoodWepoon:GetClass()then if IsValid(__b.ActiveFoodWepoon)then if CLIENT then __b.ActiveFoodWepoon:ResetAnimaton()
 __b.ActiveFoodWepoon:ResetPose()end end;__b.ActiveFoodWepoon=nil else if __d.AnimationPlaying then __d:UpdateAnimation()end end else if __d.IsFoodBase then if CLIENT then __d:SetupPose()end;__b.ActiveFoodWepoon=__d end 
 end end)
- -- The code looks like this because it was obfuscated. If someone wants to make this into a more human readable format, please submit a PR.
+ -- The code looks like this because it was obfuscated.
