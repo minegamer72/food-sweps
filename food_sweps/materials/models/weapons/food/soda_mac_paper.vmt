@@ -1,0 +1,12 @@
+"VertexlitGeneric" 
+{
+	"$basetexture"  				"models/weapons/food/soda_mac_paper"
+	
+	"$phong"						"1"
+	"$phongfresnelranges"			"[0.3 0.75 1.00]"
+	"$phongalbedotint"				"1"
+	"$phongexponent"				"10"
+	"$phongboost"					"8"
+	
+	"$nocull" 						"1"
+}

@@ -1,0 +1,15 @@
+"VertexLitGeneric" 
+{ 
+	"$basetexture"  				"models/weapons/food/beer_glass"
+	"$phong"						"1"
+	
+	"$phongfresnelranges"			"[1.3 0.75 1.00]"
+	"$phongboost"					"6"
+	"$translucent"         			"1"
+	"$rimlight"               		"1"
+	"$rimlightexponent"       		"1"
+	"$rimlightboost"          		"1"
+
+	"$envmap"						"env_cubemap"
+	"$envmaptint"					"[0.2 0.2 0.2]"
+}

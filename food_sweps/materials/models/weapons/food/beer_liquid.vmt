@@ -1,0 +1,10 @@
+"VertexLitGeneric" 
+{
+	"$phong"						"1"
+	"$phongfresnelranges"			"[0.3 0.75 1.00]"
+	"$phongalbedotint"				"1"
+	"$phongexponent"				"10"
+	"$phongboost"					"8"
+	
+	"$color2" 						"{ 130 109 50 }"
+}

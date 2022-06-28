@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture"					"models/weapons/food/popcan2"
+	"$bumpmap"						"models/weapons/food/popcan_normal"
+
+	"$phong"						"1"
+	"$phongexponent" 				"5"
+	"$phongboost"					"2"
+	"$phongfresnelranges"			"[1.0 1.0 1.0]"
+
+	"$surfaceprop"					"metal"
+}

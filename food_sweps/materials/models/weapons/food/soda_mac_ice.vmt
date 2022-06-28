@@ -1,0 +1,15 @@
+"VertexLitGeneric" 
+{
+	"$basetexture"  				"models/weapons/food/soda_mac_ice"
+
+	"$phong"						"1"
+	"$phongfresnelranges"			"[0.3 0.75 1.00]"
+	"$phongalbedotint"				"1"
+	"$phongexponent"				"10"
+	"$phongboost"					"8"
+	
+	"$color2" 						"{ 200 200 250 }"
+	
+	"$envmap"						"env_cubemap"
+	"$envmaptint"					"[1.2 1.2 1.2]"
+}
