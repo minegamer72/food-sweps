@@ -7,5 +7,4 @@ Known issues:
 There is a chance that the breen soda will have a conflict with the bugbait.
 
 Todo:
-- Make autorun script more human readable
-- Fix issues (in general)
+- Rewrite the whole thing >:(
