@@ -3,10 +3,23 @@ AddCSLuaFile()
 
 --[[        (the original comment was pretty much the exact opposite to this)                                    
 
-    Hi steam staff and garry`s mod community! I want you to know - you very much deserve more than a byte of MY code MY addons and MY games.
-    I love you and want see you and your children alive in front of my eyes. 
+  ________________________________________
+/ Hi steam staff and garry`s mod           \\
+| community! I want you to know - you very |
+| much deserve more than a byte of MY code |
+| MY addons and MY games.  I love you and  |
+| want see you and your children alive in  |
+| front of my eyes.   I hope you realize   |
+| you are safe in workshop. See you later, |
+\\ again : )                                /
+  ----------------------------------------
+         \   ^__^ 
+          \  (oo)\_______
+             (__)\       )\/\\
+                 ||----w |
+                 ||     ||
     
-    I hope you realize you are safe in workshop. See you later, again :)
+    
 ]]
 
 
@@ -25,6 +38,8 @@ FoodSwep.ANIMATION_EASE_OUT_EASE_OUT=6;
 FoodSwep.ANIMATION_EASE_DRINK=7;
 
 
+
+
 if SERVER then 
     util.AddNetworkString("FoodSwep_PlayAnimation")
     util.AddNetworkString("FoodSwep_AnimationEvent")net.Receive("FoodSwep_AnimationEvent",function(__a,__b)
@@ -35,6 +50,8 @@ if not IsValid(__d)or not __d.IsFoodBase then return end;
 __d:OnAnimationEvent(c)end)end;
 
 if CLIENT then 
+-- chat print
+
 net.Receive("FoodSwep_PlayAnimation",function()
 local __b=net.ReadEntity() -- 
 if not IsValid(__b)then return end; 
@@ -145,6 +162,6 @@ else
     end 
 end)
 
--- the "person" obfuscated his code, so thats why it looks the way it does
+-- the "person" obfuscated his code, so thats why it looks the way it does. 
 
 
