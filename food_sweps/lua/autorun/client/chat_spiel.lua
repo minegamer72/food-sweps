@@ -15,6 +15,6 @@ if chatprints == 1 then -- is it true?
         chat.AddText(Color(225, 5, 15), "-- Food SWEPS Addon --")
     end)
 elseif chatprints == 0 then -- is it false?
-    print("Food Sweps: Not chatting spiel.") -- don't chat
+    print("Food Sweps: foodswep_chatprint is false, not chatting!") -- don't chat
     return -- go away
 end
